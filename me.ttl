@@ -1,7 +1,7 @@
 @prefix example: <https://example.org/> .
 @prefix schema: <http://schema.org/> .
 
-<https://janvanrensbergen.github.io/me.ttl>
+<http://jan.vanrensbergen/#me>
     a schema:Person ;
     schema:name "Jan Van Rensbergen" ;
     schema:children "Thijs", "Kaat", "Roos" ;
