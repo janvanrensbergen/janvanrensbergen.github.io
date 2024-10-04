@@ -1,11 +1,11 @@
 @prefix example: <https://example.org/> .
 @prefix schema: <http://schema.org/> .
 
-<https://janvanrensbergen.github.io/>
+<http://jan.vanrensbergen/#me>
     a schema:Person ;
     schema:name "Jan Van Rensbergen" ;
-    schema:children ("Thijs" "Kaat" "Roos") ;
-    schema:address "Bergstraat 39, 3200 Aarschot";
+    schema:children ("Thijs", "Kaat", "Roos") ;
+    schema:address <https://data.vlaanderen.be/id/adres/1746557> ;
     schema:email "jan.vanrensbergen@athumi.eu" ;
     example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> .
 
