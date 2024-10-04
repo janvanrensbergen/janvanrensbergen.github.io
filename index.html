@@ -16,6 +16,28 @@
       example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> .
 
   </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": {
+        "@vocab": "http://schema.org/",
+        "participant": {
+          "@id": "https://example.org/participant",
+          "@type": "@id"
+        }
+      },
+      "@id": "http://jan.vanrensbergen/#me",
+      "@type": "Person",
+      "name": "Jan Van Rensbergen",
+      "children": ["Thijs", "Kaat", "Roos"],
+      "address": "Bergstraat 39, 3200 Aarschot",
+      "email": "jan.vanrensbergen@athumi.eu",
+      "about": "foo",
+      "participant": {
+        "@id": "https://pietercolpaert.be/teaching/lds/#2024-2025"
+      }
+    }
+  </script>  
 </head>
 <body>
 <h1>Hello</h1>
