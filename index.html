@@ -6,6 +6,7 @@
   <script type="text/turtle">
     @prefix example: <https://example.org/> .
     @prefix schema: <http://schema.org/> .
+    @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
     <https://janvanrensbergen.github.io/#me>
       a schema:Person ;
@@ -15,8 +16,9 @@
       schema:email "jan.vanrensbergen@athumi.eu" ;
       example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> .
 
-    <https://data.vlaanderen.be/id/adres/1746557>
-      schema:about "Ik woon hier graag".
+    <https://janvanrensbergen.github.io>
+      a foaf:Document ;
+    .
   </script>
 
   <script type="application/ld+json">
@@ -44,6 +46,7 @@
   </script>  
 </head>
 <body>
-<h1>Hello</h1>
+<h1><a id="me">Jan</a></h1>
+
 </body>
 </html>
