@@ -12,3 +12,7 @@
     foaf:knows <https://bocaopubliq.github.io/link_data_solid_study/>
 .
 
+<https://janvanrensbergen.github.io>
+    a foaf:Document ;
+.
+
