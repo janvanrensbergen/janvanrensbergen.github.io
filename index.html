@@ -14,36 +14,13 @@
       schema:children ("Thijs" "Kaat" "Roos") ;
       schema:address <https://data.vlaanderen.be/id/adres/1746557> ;
       schema:email "jan.vanrensbergen@athumi.eu" ;
-      example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> .
+      example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
+      foaf:knows <https://pietercolpaert.be/#me> .
 
     <https://janvanrensbergen.github.io>
       a foaf:Document ;
     .
   </script>
-
-  <script type="application/ld+json">
-    {
-      "@context": {
-        "@vocab": "http://schema.org/",
-        "participant": {
-          "@id": "https://example.org/participant",
-          "@type": "@id"
-        }
-      },
-      "@id": "https://janvanrensbergen.github.io/#me",
-      "@type": "Person",
-      "name": "Jan Van Rensbergen",
-      "children": ["Thijs", "Kaat", "Roos"],
-      "address": {
-        "@id": "https://data.vlaanderen.be/id/adres/1746557"
-      },
-      "email": "jan.vanrensbergen@athumi.eu",
-      "about": "foo",
-      "participant": {
-        "@id": "https://pietercolpaert.be/teaching/lds/#2024-2025"
-      }
-    }
-  </script>  
 </head>
 <body>
 <h1><a id="me">Jan</a></h1>

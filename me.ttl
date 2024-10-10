@@ -9,7 +9,7 @@
     schema:address <https://data.vlaanderen.be/id/adres/1746557> ;
     schema:email "jan.vanrensbergen@athumi.eu" ;
     example:participant <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
-    foaf:knows <https://bocaopubliq.github.io/link_data_solid_study/>
+    foaf:knows <https://pietercolpaert.be/#me>
 .
 
 <https://janvanrensbergen.github.io>
